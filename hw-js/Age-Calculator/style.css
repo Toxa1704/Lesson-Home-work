@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.wrapper {
+    width: 840px;
+    height: 651px;
+    margin: 50px auto;
+    padding: 56px;
+    background: #FFFFFF;
+    border-radius: 24px 24px 200px 24px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+.input-date {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 32px;
+    
+}
+
+.day,
+.month,
+.year {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.day input,
+.month input,
+.year input {
+    appearance: none;
+    padding: 12px 24px;
+    width: 160px;
+    height: 72px;
+    border: 1px solid;
+    border-color: #DCDCDC;
+    border-radius: 8px;
+    color: #151515;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    opacity: 0.50;
+}
+
+.day input:hover,
+.month input:hover,
+.year input:hover {
+border-color: #B38FFF;
+}
+
+hr {
+width: 632px;
+height: 1px;
+}
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+rect:hover {
+fill: #151515;
+}
+.output-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+.output-date-years,
+.output-date-month,
+.output-date-days{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 8px;
+width: 728px;
+height: 114px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.output-label {
+    color: #151515;
+    font-size: 104px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 114.4px;
+    letter-spacing: -2.08px;
+}
+.output-date-years input,
+.output-date-month input,
+.output-date-days input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 138px;
+height: 114px;
+font-weight: 800;
+font-size: 104px;
+line-height: 110%;
+letter-spacing: -0.02em;
+border: none;
+color: #B38FFF;
+}
+.output-date-years :placeholder ,
+.output-date-month :placeholder ,
+.output-date-days :placeholder {
+    appearance: none;
+    color: #B38FFF;
+}
+
+.error {
+    color: #ff5959;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+.error input{
+    border-color: #ff5959;
+}
+.error-day,
+.error-month,
+.error-year{
+    display: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Task</title>
+  </head>
+  <body>
+    <div class="task">
+      <h1>Завдання</h1>
+      <div class="task-wrapper">
+        <form class="task-input-update">
+          <label for="text-task">Текст завдання</label>
+          <textarea
+            name="text-task"
+            id="text-task"
+            cols="60"
+            rows="20"
+            required
+          ></textarea>
+          <button type="submit" class="task-btn" >Додати</button>
+        </form>
+        <div class="task-list">
+          <h3>Список завдань</h3>
+          <ul class="task-list-update">
+            
+          </ul>
+        </div>
+      </div>
+      <ul class="history-task">
+        
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

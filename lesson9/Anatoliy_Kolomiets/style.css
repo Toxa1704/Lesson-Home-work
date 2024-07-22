@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+    padding-left:100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    margin-left: -50px;
+}
+h3 {
+    margin-top: 50px;
+}
+strong {
+    color: rgb(32, 6, 147);
+}
+.car {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.color {
+    width: 25px;
+    height: 25px;
+    background-color: #d6282f;
+}

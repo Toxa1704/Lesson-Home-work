@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left:100px;
+}
+h1, h4 {
+    text-align: center;
+    color: blueviolet;
+}
+p {
+    padding-left: 100px;
+    color: rgb(41, 118, 30);
+}
+span {
+    font-style: italic;
+    font-size: 20px;
+}
